@@ -8,5 +8,13 @@ homeassistant:
 # https://www.home-assistant.io/integrations/logger/
 logger:
   default: info
-  logs:
-    custom_components.integration_blueprint: debug
+# logs:
+#    custom_components.enocean_cust: debug
+
+binary_sensor:
+- platform: enocean_cust
+  id:
+  - 254
+  - 221
+  - 223
+  - 115

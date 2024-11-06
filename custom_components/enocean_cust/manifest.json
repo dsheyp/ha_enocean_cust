@@ -1,0 +1,18 @@
+{
+  "domain": "enocean_cust",
+  "name": "Enocean Cust",
+  "codeowners": [
+    "@dsheyp"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/dsheyp/ha_enocean_cust",
+  "iot_class": "local_push",
+  "loggers": [
+    "enocean_cust"
+  ],
+  "requirements": [
+    "enocean>=0.50"
+  ],
+  "single_config_entry": true,
+  "version": "0.0.1"
+}
